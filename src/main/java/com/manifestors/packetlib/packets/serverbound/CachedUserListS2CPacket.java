@@ -15,5 +15,7 @@ public class CachedUserListS2CPacket implements Packet {
 
     @SerializedName("users")
     private JsonElement activeUsers;
+    @SerializedName("capes")
+    private JsonElement activeUsersCape;
 
 }
