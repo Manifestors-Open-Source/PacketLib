@@ -4,6 +4,11 @@ import com.google.gson.annotations.SerializedName;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
+/**
+ * Custom enum for a private project. You can edit/delete this.
+ * @author metokt
+ * @since 25.11.2026
+ * */
 @Getter
 @AllArgsConstructor
 public enum CapeStyle {
