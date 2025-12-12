@@ -13,10 +13,8 @@ public class UserUpdateS2CPacket implements Packet {
 
     private final PacketType type = PacketType.UPDATE;
 
-    @SerializedName("onm")
-    private String oldMcName;
     @SerializedName("mcnm")
-    private String newMcName;
+    private String mcName;
     @SerializedName("data")
     private UserData userData;
 
