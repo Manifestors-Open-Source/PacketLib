@@ -9,6 +9,7 @@ import lombok.Getter;
 public enum PacketType {
     JOIN("JOIN"),
     LEAVE("LEAVE"),
+    UPDATE("UPDATE"),
     @SerializedName("LIST")
     USER_LIST("LIST"),
     CAPE_STATUS("CAPE_STATUS"),
